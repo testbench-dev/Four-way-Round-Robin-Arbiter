@@ -21,5 +21,15 @@ A minimal, pure-Verilog arbitration core that fairly grants one of four requeste
 
 ---
 
+## PPA Summary
+
+| Metric                | Value                    |
+|-----------------------|--------------------------|
+| **Slice LUTs**        | 8 (0.04 %)               |
+| **Slice Registers**   | 2 (<0.01 %)              |
+| **Bonded IOBs**       | 10 (4.76 %)              |
+| **BUFGCTRL**          | 1 (3.13 %)               |
+| **Estimated Power**   | 0.082 W (4 % of device)  |
+| **Worst Negative Slack** | ∞ (no clock constraint) |
 
 
