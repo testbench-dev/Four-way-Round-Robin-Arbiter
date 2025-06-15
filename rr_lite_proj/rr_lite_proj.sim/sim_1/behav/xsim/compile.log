@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Projects/RR/rtl/rr_arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rr_arbiter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Projects/RR/sim/tb_rr_arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_rr_arbiter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Projects/RR/rr_lite_proj/rr_lite_proj.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

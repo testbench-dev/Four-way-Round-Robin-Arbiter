@@ -1,0 +1,21 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_rr_arbiter_behav xil_defaultlib.tb_rr_arbiter xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [C:/Projects/RR/sim/tb_rr_arbiter.v:30]
+WARNING: [VRFC 10-8967] first argument of $fatal is invalid; expected 0, 1 or 2 [C:/Projects/RR/sim/tb_rr_arbiter.v:36]
+Completed static elaboration
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 30, File C:/Projects/RR/sim/tb_rr_arbiter.v
+INFO: [XSIM 43-4329] Assuming default value 1 for the first arguement of $fatal at Line 36, File C:/Projects/RR/sim/tb_rr_arbiter.v
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Projects/RR/rtl/rr_arbiter.v" Line 4. Module rr_arbiter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Projects/RR/rtl/rr_arbiter.v" Line 4. Module rr_arbiter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.rr_arbiter
+Compiling module xil_defaultlib.tb_rr_arbiter
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_rr_arbiter_behav
