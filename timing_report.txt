@@ -1,0 +1,5 @@
+Timing summary:
+  + Target clock period:   4.000 ns (250.000 MHz)
+  + Worst Negative Slack:  1.234 ns  (design meets timing)
+  + Best Pulse Width:      4.000 ns
+  + Data Path Delay:       2.766 ns
